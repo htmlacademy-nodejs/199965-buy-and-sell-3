@@ -9,7 +9,7 @@ const helpData = {
 module.exports = {
   name: `--help`,
   run() {
-    console.info(`Команды`);
-    Object.keys(helpData).forEach((command) => console.info(`${command}: ${helpData[command]}`));
+    console.log(`Команды`);
+    Object.keys(helpData).forEach((command) => console.log(`${command}: ${helpData[command]}`));
   }
 };
