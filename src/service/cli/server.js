@@ -15,7 +15,7 @@ const sendResponse = (res, statusCode, message) => {
     <!Doctype html>
       <html lang="ru">
       <head>
-        <title>With love from Node</title>
+        <title>With love from Node.js</title>
       </head>
       <body>${message}</body>
     </html>`.trim();
